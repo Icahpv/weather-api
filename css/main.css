@@ -4,18 +4,30 @@
   box-sizing: border-box;
 }
 
+main {
+  margin: 1rem;
+  overflow-y: hidden;
+}
+
+/* form and button */
+
 form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   text-align: center;
-  margin: 10rem;
+  height: 40vh;
 }
 
 input {
   padding: 10px;
   font-size: 15px;
-  width:  40rem;
+  width:  30rem;
   border-radius: 15px;
   border-style: ridge;
   box-shadow: 1px 1px 2px black;
+  text-align: center;
 }
 
 button {
@@ -25,46 +37,81 @@ button {
   border-radius: 20px;
 }
 
+/* weather app box and the date */
+
 section {
-  text-align: center;
-  margin: 10rem;
-  box-shadow: 1px 1px 2px back;
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 75ch;
+  margin: auto;
+  border-radius: 2rem;
+  background-color: white;
 }
 
-.content, .date {
-  margin: 5rem;
-  font-size: 15px;
-}
-
-ul {
+ul, h1 {
   margin: 2rem;
+  text-align: center;
+}
+
+.date {
+  margin: 2rem;
+  text-align: center;
+  font-size: 15px;
 }
 
 li {
-  list-style: none;
   margin: 5px;
   font-size: 15px;
+  list-style: none;
 }
 
-/*modifier*/
+/*modifier for switch in js*/
 
-.few-clouds {
-  background-image: url(https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+.few { /*few clouds*/
+  background-image: url(https://images.pexels.com/photos/86695/sky-clouds-outdoors-scenic-86695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
-.clear-sky {
-  background-image: url(https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+.clear { /*clear sky*/
+  background-image: url(https://images.unsplash.com/photo-1604157753956-fa2fe79130f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.overcast {
-  background-image: url(https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+.overcast { /*overcast clouds*/
+  background-image: url(https://images.pexels.com/photos/3742711/pexels-photo-3742711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.scattered {
-  background-image: url(https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+.scattered { /*scattered clouds*/
+  background-image: url(https://images.pexels.com/photos/46160/field-clouds-sky-earth-46160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.light-rain {
-  background-image: url(https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+.light-rain { /*light rain*/
+  background-image: url(https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.broken-clouds { /*broken clouds*/
+  background-image: url(https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mist { /*mist*/
+  background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moderate { /*moderate rain*/
+  background-image: url(https://images.pexels.com/photos/1463530/pexels-photo-1463530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

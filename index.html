@@ -7,19 +7,20 @@
   <title>Weather API</title>
   <link rel="stylesheet" href="css/main.css">
   <script src="asset/js/user.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.0.2/luxon.min.js" defer></script>
 </head>
 <body>
   <main>
+    <!-- form to change city, town or country -->
     <form class="city">
       <input type="text" id="city" name="city" placeholder="city or town" required>
       <button type="submit">Go!</button>
     </form>
+    <!-- weather app box and the date -->
     <section>
       <div class="content"></div>
-            <p class="date"></p>
+      <!-- current location date -->
+        <p class="date"></p>
     </section>
-   
   </main>
   
 </body>
