@@ -40,9 +40,9 @@ I created a form and a button in able to select a city, town or country. Using t
 
 ### Reference
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/)
-[W3Schools](https://www.w3schools.com/)
-[Traversy Media](https://youtu.be/Oive66jrwBs)
+[MDN Web Docs](https://developer.mozilla.org/en-US/) | 
+[W3Schools](https://www.w3schools.com/) | 
+[Traversy Media](https://youtu.be/Oive66jrwBs) | 
 [Markdown Emojis](https://github.com/ikatyang/emoji-cheat-sheet#writing) by [Ika](https://github.com/ikatyang)
 
 
